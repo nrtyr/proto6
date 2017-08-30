@@ -208,6 +208,15 @@
 			float: left;
 			position: relative;
 		}
+		.logoTelecom{
+			width: 200px;
+			margin: auto;
+			position: absolute;
+			left: 0px;
+			right: 0px;
+			top: 0px;
+			bottom: 0px;
+		}
 		.txtChico{
 			position: absolute;
 			top: 35px;

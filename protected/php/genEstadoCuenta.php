@@ -138,27 +138,28 @@ include('busPadron.php');
 					<div class="cTfPago">
 						<div class="cfPago">
 							<div class="numero">1</div>
-							<p class="txtCuadro">Pago en ventanilla BBVA Bancomer:
+							<p class="txtCuadro">Pago en ventanilla Telecom Telégrafos:
 							<br>
 							<b>Convenio CIE: 1413325 y Referencia.</b>
 
 							</p>
 						</div>
-						<div class="cfPago">
-							<div class="numero">3</div>
+						<div class="cfPago"> 
+							<!-- <div class="numero">3</div>
 							<p class="txtCuadroG">Transferencia Interbancaria.
 							<br>
-							<img src="css/img/logoSPEI.svg" class="logoSPEI">
+							<img src="css/img/logoTelecom.svg" class="logoSPEI">
 							<b>CIE INTERBANCARIO
 							<br>
 							012914002014133252
 							</b>
 
-							</p>
-						</div>
+							</p> -->
+							<img src="css/img/logoTelecom150.svg" class="logoTelecom">
+						 </div>
 					</div>
 
-					<div class="cTfPago">
+					<!-- <div class="cTfPago">
 						<div class="cfPago">
 							<div class="numero">2</div>
 							<p class="txtCuadro">Portal Bancario Cliente BBVA Bancomer:
@@ -170,7 +171,7 @@ include('busPadron.php');
 						<div class="cfPago">
 							
 						</div>
-					</div>
+					</div> -->
 					
 					<div class="cTfPago">
 						<div class="cfPago">
