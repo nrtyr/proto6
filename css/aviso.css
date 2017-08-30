@@ -1,0 +1,130 @@
+@font-face {
+   font-family: "Gotham-Ultra";
+   src: url("fonts/Gotham-Ultra.otf");
+}
+@font-face {
+   font-family: "Gotham-Bold";
+   src: url("fonts/Gotham-Bold.otf");
+}
+@font-face {
+   font-family: "Gotham-Book";
+   src: url("fonts/Gotham-Book.otf");
+}
+a:link   
+{   
+ text-decoration:none; 
+ color:#ffffff;  
+}   
+a:visited {color:#ffffff;}
+a:active {color:#ffffff;}
+a:hover {color:#ffffff;}	
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html,body{
+	height: 100%;
+	
+}
+body{
+	background-color: #000;
+	background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		    -webkit-box-pack: center;
+		        justify-content: center;
+		    -webkit-align-items: center;
+		            -ms-flex-align: center;
+		        -webkit-box-align: center;
+		            align-items: center;
+	min-height: 100vh;
+}
+.cuadroAviso{
+	background-color: rgba(226,5,0,.5);
+	-webkit-border-radius: 8px;
+    	    border-radius: 8px;
+    	padding: 20px;
+    	width: 80%;
+}
+
+.cuadroEnca{
+	height: 100px;
+	position: relative;
+	text-align: center;
+}
+.cuadroE{
+	display: inline-block;
+}
+.imglogo img{
+	height: 100px;
+}
+.iz{
+	float: left;
+}
+.textoCEnca{
+	clear: both;
+	text-align: center;
+	color: #FFF;
+	font-family: "Gotham-Bold";
+	font-size: 1.4em;
+	margin: auto;
+	line-height: 100px;
+}
+.der{
+	float: right;
+}
+@media screen and (max-width: 1080px) {
+	.cuadroEnca{
+	height: 60px;
+	}
+    .textoCEnca{
+    	font-size: 1.2em;
+    	line-height: 60px;
+    }
+    .imglogo img{
+    	height: 60px;
+	}
+}
+@media screen and (max-width: 800px) {
+	.cuadroEnca{
+	height: 300px;
+	}
+    .textoCEnca{
+    	font-size: 1em;
+    	line-height: 30px;
+    	margin: 20px 0px;
+    }
+    .imglogo img{
+    	height: 100%;
+    	max-width: 40%;
+    	min-width: 100%;
+	}
+	.cuadroE{
+		width: 100%;
+	}
+}
+
+.cuadroTextoAviso{
+	width: 95%;
+	height: 300px;
+	background-color: #FFF;
+	margin: auto;
+	-webkit-border-radius: 8px;
+	        border-radius: 8px;
+	overflow-y: scroll;
+}
+.cuadroTextoAviso p{
+	font-family: "Gotham-Book";
+	padding: 3% 5%;
+	text-align: justify;
+	color: #5A5A5A;
+}
