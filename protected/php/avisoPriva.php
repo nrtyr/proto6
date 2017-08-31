@@ -5,6 +5,10 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Aviso de Privacidad</title>
 	<link rel="stylesheet" href="../css/aviso.css">
+	<link rel="stylesheet" href="../css/font-awesome.css">
+	
+	<script type="text/javascript" src="../js/ajax/aviso.js"></script>
+
 </head>
 <body>
 	<div class="cuadroAviso">
@@ -56,6 +60,24 @@ cabo.
 				
 			</p>
 		</div>
+		<br>
+		
+		<div id="continuar">
+			<div class="vete">
+				<div class="divCheckbox">
+					<div class="cCheckBox blockDiv">
+						<button type="button" class="btnCheckBoxNo" onclick="aviso()"></button>
+					</div>
+					<div class="txtCheck blockDiv">
+						Acepto los terminos y condiciones
+					</div>
+				</div>
+					<br>
+					<button class="estiloB" type="button" disabled="true">CONTINUAR</button>
+			</div>
+		</div>
+
+
 	</div>
 </body>
 </html>

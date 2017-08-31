@@ -111,6 +111,9 @@ body{
 	.cuadroE{
 		width: 100%;
 	}
+  .txtCheck{
+    font-size: .75em;
+  }
 }
 
 .cuadroTextoAviso{
@@ -127,4 +130,40 @@ body{
 	padding: 3% 5%;
 	text-align: justify;
 	color: #5A5A5A;
+}
+
+.divCheckbox{
+  padding-left: 20px;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+}
+.blockDiv{
+  display: inline-block;
+}
+.btnCheckBoxNo{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #3E3E3E;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background: rgba(0,0,0,0.8);
+  cursor: pointer;
+  color: #FFF;
+  font-size: 1em;
+}
+.btnCheckBoxNo:hover{
+  background: rgba(0,0,0,0.4);
+}
+.cCheckBox{
+  float: left;
+}
+
+.txtCheck{
+  margin-left: 20px;
+  float: left;
+  color: #FFF;
+  font-family: "Gotham-Bold";
+  height: 30px;
+  line-height: 30px;
 }

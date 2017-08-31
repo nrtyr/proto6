@@ -8,26 +8,7 @@
 	<link rel="stylesheet" href="../css/font-awesome.css">
 	<link rel="stylesheet" href="../css/animate.css">
 
-	<script type="text/javascript">
-		function masPredios(){
-
-			var conexion;
-			if (window.XMLHttpRequest) {
-				conexion = new XMLHttpRequest();
-			}else{
-				conexion = new ActiveXObject("Microsoft.XMLHTTP");
-			}
-
-			conexion.onreadystatechange=function(){
-				if (conexion.readyState==4 && conexion.status==200) {
-					document.getElementById("masPrediosDiv").innerHTML=conexion.responseText;
-				}
-			}
-
-			conexion.open();
-			conexion.send();
-		}
-	</script>
+	<script type="text/javascript" src="../js/ajax/usuarios.js"></script>
 	
 </head>
 <body class="animated fadeIn">
@@ -54,7 +35,16 @@
 					<br>
 					<p class="infoTxtInput">Clave Catastral:</p>
 					<input type="text" name="txtClvCat" placeholder="16 Dígitos" class="formText" maxlength="16" minlength="16" required />
+					
 					<br>
+					<div id="masPrediosDiv"></div>
+					<br>
+					<div class="plus">
+						<i class="fa fa-plus centrado" aria-hidden="true" onclick="masPredios()"></i>
+					</div>
+					<br>
+					<br>
+					<div id="masPrediosDiv"></div>
 					<br>
 					<button type="submit" class="btnLoginUno">SIGUIENTE <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
 					<br>
